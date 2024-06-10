@@ -2,6 +2,7 @@ import logo from "../assets/WkLogo.png"
 import { FaLinkedin } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
 
+
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
