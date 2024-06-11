@@ -24,7 +24,9 @@ const Contact = () => {
           <motion.div
               whileHover={{ scale: [null, 1.5, 1.4] }}
               transition={{ duration: 0.3 }}>
-              <a href="#" className="border-b">{CONTACT.email}</a>
+              <a href={`mailto:${CONTACT.email}`} className="border-b">
+                {CONTACT.email}
+              </a>
           </motion.div>
         </div>
     </div>
