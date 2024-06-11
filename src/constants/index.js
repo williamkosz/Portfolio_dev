@@ -6,9 +6,9 @@ import project4 from "../assets/projects/project-4.jpg";
 export const HERO_CONTENT = `Passionné d'informatique, j'ai décidé de faire de ce monde mon quotidien. Manageur dans le commerce de formation, c'est à la fin de mon bac+5 que j'ai intégré une formation de Développeur Web. 
 Aujourd'hui, mon objectif est de développer mes compétences au maximum afin de pouvoir réaliser des projets plus passionnants les uns que les autres, et de pouvoir étendre mes connaissances à de nouvelles technologies.`;
 
-export const ABOUT_TEXT = `Devenir développeur est ma priorité aujourd'hui. Intrigué, mon expérience de développeur commence par une grande curiosité de ce domaine. Organisé, réfléchi et m'adaptant facilement, j'apprends vite et suis autonome rapidement. 
-J'ai eu l'occasion de travailler sur différentes technologies tout au long de ma formation, telles que : HTML, CSS, Javascript, React, Node.JS. 
-Je suis aujourd'hui en recherche d'une entreprise qui pourra m'accueillir dans la cadre d'une formation en apprentissage. Le travail d'équipe est également une dimension majeure pour moi. Découvrez en plus dans mon CV ! `;
+export const ABOUT_TEXT = `Devenir développeur est ma priorité aujourd'hui. Intrigué, mon expérience de développeur commence par une grande curiosité de ce domaine. Logique, reflexion et résolution de problème, rien de plus stimulant ! Mes experiences passées ont fait de moi quelqu'un d'organisé, réfléchi et sachant m'adapté, j'apprends vite et suis autonome rapidement. 
+J'ai eu l'occasion de travailler sur différentes technologies tout au long de ma formation, telles que : HTML, CSS, Javascript, React, Node.JS. Le travail d'équipe est également une dimension majeure pour moi. 
+Je suis aujourd'hui en recherche d'une entreprise qui pourra m'accueillir dans la cadre d'une formation en apprentissage. Découvrez en plus dans mon CV ! `;
 
 export const EXPERIENCES = [
   {
