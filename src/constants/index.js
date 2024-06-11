@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import kasa from "../assets/projects/kasa.png";
+import monVieuxGrimoire from "../assets/projects/mon_vieux_grimoire.png";
+import sophieBluel from "../assets/projects/sophie_bluel.png";
+import portfolio from "../assets/projects/portfolio.png" ;
 
 export const HERO_CONTENT = `Passionné d'informatique, j'ai décidé de faire de ce monde mon quotidien. Manageur dans le commerce de formation, c'est à la fin de mon bac+5 que j'ai intégré une formation de Développeur Web. 
 Aujourd'hui, mon objectif est de développer mes compétences au maximum afin de pouvoir réaliser des projets plus passionnants les uns que les autres, et de pouvoir étendre mes connaissances à de nouvelles technologies.`;
@@ -12,68 +12,56 @@ Je suis aujourd'hui en recherche d'une entreprise qui pourra m'accueillir dans l
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Septembre 2024 - Septembre 2025",
+    role : "Développeur Fullstack (Apprentissage)",
+    company: "Epsi Toulouse",
+    description: "Formation en apprentissage à venir qui m'apportera des connaissances solides ainsi qu'une expérience professionnelle. Conception et test de solutions applicatives, Gestion de données, Veille technologique et communication, Gestion de projet ",
+    technologies: ["A définir"]
   },
+
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Fevrier 2024 - En cours ",
+    role: "Développeur web (RNCP Niveau 5)",
+    company: "OpenClassrooms",
+    description: ` Cette formation est le point de départ de ma carrière à venir. Une multitude de projets professionnalisants à réaliser via différentes technologies. J'ai également pu aborder la gestion de projet et la planification. `,
+    technologies: ["HTML","CSS","Javascript", "React.js", "Node.js", "mongoDB"],
   },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Portfolio Personnel",
+    image: portfolio,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Mon portfolio personnel, bonne visite !",
+    technologies: ["React", "Tailwind CSS"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Kasa - Location d'appartements",
+    image: kasa,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Refonte d'un site d'agence de location d'appartements en React avec gestion des pages pour chaque appartement",
+    technologies: ["React", "SASS"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Mon Vieux Grimoire",
+    image: monVieuxGrimoire,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Création du back-end pour l'ouverture d'un site de libraire. L'objectif est de pouvoir permettre aux utilisateurs de publier leurs livres favoris, les noter ainsi que noter ceux des autres utilisateurs.",
+    technologies: ["Node.js", "Express", "MongoDB"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Sophie Bluel - Portflio d'une architecte d'intérieur",
+    image: sophieBluel,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Création d'un portflio dynmaique pour une architecte d'intérieur. L'utilisateur doit pouvoir se connecter afin de passer en mode Admin, ajouter ses photos via l'aide d'une modal, puis les supprimer.",
+    technologies: ["HTML", "CSS", "Javascript"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  adress: "Toulouse, Seilh (31840)",
+  phoneNo: "06.49.51.60.66 ",
+  email: "william.koszelnik@gmail.com",
 };
