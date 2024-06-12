@@ -15,10 +15,10 @@ const About = () => {
       <div className="border-b border-neutral-900 pb-4">
           <motion.h2 
             whileInView={{ opacity: 1, y: 0}}
-            initial={{ opacity:0, y: -100}}
+            initial={{ opacity:0, y: -50}}
             transition={{ duration: 1.5}}
-            className="my-32 text-center text-4xl">A propos de 
-            <span className="text-neutral-500"> moi</span>
+            viewport={{ once: true }}
+            className="my-32 text-center text-4xl">A propos de moi 
           </motion.h2>
           
           <div className="flex flex-wrap">
@@ -26,16 +26,19 @@ const About = () => {
               whileInView={{opacity: 1, x: 0}}
               initial={{opacity: 0, x: -100}}
               transition={{duration: 0.5}}
+              viewport={{ once: true }}
               className="w-full lg:w-1/2 lg:p-8">
 
                   <div className="flex items-center justify-center lg:justify-start">
                       <img className="rounded-2xl" src={about} alt="Image pour rubrique à propos de moi" />
                   </div>
+                  
               </motion.div>
               <motion.div 
               whileInView={{opacity: 1, x: 0}}
               initial={{opacity: 0, x: 100}}
               transition={{duration: 0.5}}
+              viewport={{ once: true }}
               className="w-full lg:w-1/2">
 
                   <div className="flex flex-col items-center lg:items-start">

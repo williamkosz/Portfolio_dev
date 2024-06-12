@@ -8,18 +8,22 @@ const Contact = () => {
           whileInView={{ opacity: 1, y:0 }}
           initial= {{opacity: 1, y:-100 }}
           transition={{ duration: 0.5}}
+          viewport= {{ once: true }}
           className="my-20 text-center text-4xl">Me contacter</motion.h2>
         <div className="text-center tracking-tighter">
           <motion.p
               whileInView={{ opacity: 1, x:0 }}
               initial= {{opacity: 1, x:-100 }}
               transition={{ duration: 1}}
+              viewport= {{ once: true }}
               className="my-4">{CONTACT.adress}
+             
           </motion.p>
           <motion.p 
               whileInView={{ opacity: 1, x:0 }}
               initial= {{opacity: 1, x:-100 }}
               transition={{ duration: 1}}
+              viewport= {{ once: true }}
               className="my-4">{CONTACT.phoneNo}</motion.p>
           <motion.div
               whileHover={{ scale: [null, 1.5, 1.4] }}

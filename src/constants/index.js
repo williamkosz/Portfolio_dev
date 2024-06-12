@@ -43,6 +43,7 @@ export const PROJECTS = [
     description:
       "Refonte d'un site d'agence de location d'appartements en React avec gestion des pages pour chaque appartement",
     technologies: ["React", "SASS"],
+    url: "/kasa"
   },
   {
     title: "Mon Vieux Grimoire",
@@ -50,6 +51,7 @@ export const PROJECTS = [
     description:
       "Création du back-end pour l'ouverture d'un site de libraire. L'objectif est de pouvoir permettre aux utilisateurs de publier leurs livres favoris, les noter ainsi que noter ceux des autres utilisateurs.",
     technologies: ["Node.js", "Express", "MongoDB"],
+    url: "/monvieuxgrimoire"
   },
   {
     title: "Sophie Bluel - Portflio d'une architecte d'intérieur",
@@ -57,6 +59,7 @@ export const PROJECTS = [
     description:
       "Création d'un portflio dynmaique pour une architecte d'intérieur. L'utilisateur doit pouvoir se connecter afin de passer en mode Admin, ajouter ses photos via l'aide d'une modal, puis les supprimer.",
     technologies: ["HTML", "CSS", "Javascript"],
+    url: "/sophiebluel"
   },
 ];
 
