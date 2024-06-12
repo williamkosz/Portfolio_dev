@@ -25,7 +25,7 @@ const ButtonBack = () => {
             variants={container(1.5)}
             initial="hidden"
             animate="visible"
-            whileHover={{ scale: [null, 1.5, 1.4] }}
+            whileHover={{ scale: [null, 1.2, 1.1] }}
             transition={{ duration: 0.7 }}
             className="bg-gradient-to-r from-pink-300 to-purple-500 text-gray-800 font-bold py-2 px-6 rounded-2xl mt-8"
             onClick={handleButtonClick}

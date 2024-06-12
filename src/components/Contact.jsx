@@ -26,7 +26,7 @@ const Contact = () => {
               viewport= {{ once: true }}
               className="my-4">{CONTACT.phoneNo}</motion.p>
           <motion.div
-              whileHover={{ scale: [null, 1.5, 1.4] }}
+              whileHover={{ scale: [null, 1.2, 1.1] }}
               transition={{ duration: 0.5 }}>
               <a href={`mailto:${CONTACT.email}`} className="border-b">
                 {CONTACT.email}
