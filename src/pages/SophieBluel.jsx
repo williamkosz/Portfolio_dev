@@ -18,7 +18,8 @@ const SophieBluel = () => {
             <Introduction 
             title={BLUEL_PROJECT[0].title}
             description={BLUEL_PROJECT[0].description}
-            tech={BLUEL_PROJECT[0].tech}/>
+            tech={BLUEL_PROJECT[0].tech}
+            image= {BLUEL_PROJECT[0].image}/>
             <ButtonBack />
           </div>
     </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link to="/">
           <motion.img 
             whileHover={{ scale: [null, 1.5, 1.4] }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.5 }}
             className="mx-2 w-20" src={logo} alt="logo WK" />
         </Link>
       </div>
@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="flex items-center space-x-6">
         <motion.div 
           whileHover={{ scale: [null, 1.5, 1.4] }}
-          transition={{ duration: 0.3 }}
+          transition={{ duration: 0.5 }}
           className="flex items-center cursor-pointer">
           <a href="https://www.linkedin.com/in/william-koszelnik-468135203/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-2xl" />
@@ -29,7 +29,7 @@ const Navbar = () => {
         
         <motion.div 
           whileHover={{ scale: [null, 1.5, 1.4] }}
-          transition={{ duration: 0.3 }}
+          transition={{ duration: 0.5 }}
           className="flex items-center cursor-pointer">
           <a href="https://github.com/williamkosz" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-2xl" />

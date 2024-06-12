@@ -19,6 +19,7 @@ const Kasa = () => {
             title={KASA_PROJECT[0].title}
             description={KASA_PROJECT[0].description}
             tech={KASA_PROJECT[0].tech}
+            image={KASA_PROJECT[0].image}
             />
             <ButtonBack /> 
           </div>

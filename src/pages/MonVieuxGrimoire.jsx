@@ -18,7 +18,8 @@ const MonVieuxGrimoire = () => {
             <Introduction 
             title={GRIMOIRE_PROJECT[0].title}
             description={GRIMOIRE_PROJECT[0].description}
-            tech={GRIMOIRE_PROJECT[0].tech} />
+            tech={GRIMOIRE_PROJECT[0].tech} 
+            image={GRIMOIRE_PROJECT[0].image}/>
             <ButtonBack />
           </div>
     </div>

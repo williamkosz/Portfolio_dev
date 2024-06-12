@@ -45,7 +45,7 @@ const About = () => {
                       <p className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify">{ABOUT_TEXT}</p>
                       <motion.button 
                       whileHover={{ scale: [null, 1.5, 1.4] }}
-                      transition={{ duration: 0.3 }}
+                      transition={{ duration: 0.7 }}
                       onClick={getCv} className="flex items-center bg-gradient-to-r from-pink-300 to-purple-500 text-gray-800 font-bold py-2 px-6 rounded-2xl mt-4">
                           <svg className="fill-current w-6 h-6 mr-2 lg:w-5 lg:h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                               <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
