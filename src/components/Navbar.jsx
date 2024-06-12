@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="flex items-center"> {/* Partie gauche de la barre de navigation */}
         <Link to="/">
           <motion.img 
-            whileHover={{ scale: [null, 1.5, 1.4] }}
+            whileHover={{ scale: [null, 1.3, 1.2] }}
             transition={{ duration: 0.5 }}
             className="mx-2 w-20" src={logo} alt="logo WK" />
         </Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
 
       <div className="flex items-center space-x-6">
         <motion.div 
-          whileHover={{ scale: [null, 1.5, 1.4] }}
+          whileHover={{ scale: [null, 1.3, 1.2] }}
           transition={{ duration: 0.5 }}
           className="flex items-center cursor-pointer">
           <a href="https://www.linkedin.com/in/william-koszelnik-468135203/" target="_blank" rel="noopener noreferrer">
