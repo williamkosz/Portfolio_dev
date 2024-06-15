@@ -16,10 +16,11 @@ const Kasa = () => {
           <div className="container mx-auto px-8">
             <Navbar />
             <Introduction 
-            title={KASA_PROJECT[0].title}
-            description={KASA_PROJECT[0].description}
-            tech={KASA_PROJECT[0].tech}
-            image={KASA_PROJECT[0].image}
+              title={KASA_PROJECT[0].title}
+              description={KASA_PROJECT[0].description}
+              tech={KASA_PROJECT[0].tech}
+              image={KASA_PROJECT[0].image}
+              url={KASA_PROJECT[0].url}
             />
             <ButtonBack /> 
           </div>

@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
-import ButtonBack from "../components/ButtonBack"
 import Introduction from "../components/Introduction"
+import ButtonBack from "../components/ButtonBack"
 import { BLUEL_PROJECT } from "../constants/project"
 
 
@@ -16,10 +16,12 @@ const SophieBluel = () => {
           <div className="container mx-auto px-8">
             <Navbar />
             <Introduction 
-            title={BLUEL_PROJECT[0].title}
-            description={BLUEL_PROJECT[0].description}
-            tech={BLUEL_PROJECT[0].tech}
-            image= {BLUEL_PROJECT[0].image}/>
+              title={BLUEL_PROJECT[0].title}
+              description={BLUEL_PROJECT[0].description}
+              tech={BLUEL_PROJECT[0].tech}
+              image= {BLUEL_PROJECT[0].image}
+              url={BLUEL_PROJECT[0].url}
+              />
             <ButtonBack />
           </div>
     </div>

@@ -16,10 +16,12 @@ const MonVieuxGrimoire = () => {
           <div className="container mx-auto px-8">
             <Navbar />
             <Introduction 
-            title={GRIMOIRE_PROJECT[0].title}
-            description={GRIMOIRE_PROJECT[0].description}
-            tech={GRIMOIRE_PROJECT[0].tech} 
-            image={GRIMOIRE_PROJECT[0].image}/>
+              title={GRIMOIRE_PROJECT[0].title}
+              description={GRIMOIRE_PROJECT[0].description}
+              tech={GRIMOIRE_PROJECT[0].tech} 
+              image={GRIMOIRE_PROJECT[0].image}
+              url={GRIMOIRE_PROJECT[0].url}
+              />
             <ButtonBack />
           </div>
     </div>

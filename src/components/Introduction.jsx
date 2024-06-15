@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import PropTypes from 'prop-types';
 import { useState } from 'react';
+import { FaGithub } from "react-icons/fa";
+
 
 const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
@@ -11,7 +13,7 @@ const container = (delay) => ({
     },
 });
 
-function Introduction({ title, description, tech, image }) {
+function Introduction({ title, description, tech, image, url }) {
     const [hoveredImageIndex, setHoveredImageIndex] = useState(null);
     const [expandedImage, setExpandedImage] = useState(null);
 
@@ -19,7 +21,8 @@ function Introduction({ title, description, tech, image }) {
         title: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
         tech: PropTypes.arrayOf(PropTypes.string).isRequired,
-        image: PropTypes.arrayOf(PropTypes.string).isRequired
+        image: PropTypes.arrayOf(PropTypes.string).isRequired,
+        url: PropTypes.string.isRequired,
     }
 
 
@@ -47,13 +50,23 @@ function Introduction({ title, description, tech, image }) {
                             variants={container(1)}
                             initial='hidden'
                             animate='visible'
-                            className="flex flex-wrap gap-4 pb-4">
+                            className="flex flex-wrap gap-4">
                                 {tech.map((tech, index) => (
-                                    <span key={index} className="rounded bg-neutral-900 px-2 py-1 text-base font-medium text-purple-700 mb-8">
+                                    <span key={index} className="rounded bg-neutral-900 px-2 py-1 text-base font-medium text-purple-700">
                                         {tech}
                                     </span>
                             ))}
                             </motion.div>
+
+                            <motion.a 
+                            variants={container(1.3)}
+                            initial="hidden"
+                            animate="visible"
+                            whileHover={{ scale: [null, 1.3, 1.2] }}
+                            transition={{ duration: 0.5 }}
+                            href={url} target="_blank" rel="noopener noreferrer">
+                                <FaGithub className="text-7xl my-16 text-pink-300"/>
+                            </motion.a>
                     </div>
                     <motion.div
                         variants={container(1.5)}

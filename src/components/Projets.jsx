@@ -22,13 +22,13 @@ const Projets = () => {
                     className="w-full lg:w-1/4">
 
                         <Link to={project.url} className="cursor-default">
-                        <motion.img 
-                            whileHover={{ scale: [null, 1.2, 1.1], transition: { duration: 0.5 } }}
-                            src={project.image} 
-                            width={150} 
-                            height={150} 
-                            alt={project.title}
-                            className={`mb-6 rounded-2xl ${index === 0 ? "cursor-default" : "cursor-pointer"}`}/>
+                            <motion.img 
+                                whileHover={index !== 0 ? { scale: [null, 1.2, 1.1], transition: { duration: 0.5 } } : {}}
+                                src={project.image} 
+                                width={150} 
+                                height={150} 
+                                alt={project.title}
+                                className={`mb-6 rounded-2xl ${index === 0 ? "cursor-default" : "cursor-pointer"}`}/>
                         </Link>
 
                 </motion.div>
