@@ -15,7 +15,7 @@ const About = () => {
       <div className="border-b border-neutral-900 pb-4">
           <motion.h2 
             whileInView={{ opacity: 1, y: 0}}
-            initial={{ opacity:0, y: -50}}
+            initial={{ opacity:0, y: -25}}
             transition={{ duration: 1.5}}
             viewport={{ once: true }}
             className="my-32 text-center text-4xl">A propos de moi 
