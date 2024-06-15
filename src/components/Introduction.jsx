@@ -43,16 +43,20 @@ function Introduction({ title, description, tech, image }) {
                             className="my-2 max-w-xl py-8 font-light tracking-tighter text-justify">
                             {description}
                         </motion.p>
-                        <div className="flex flex-wrap gap-4">
-                            {tech.map((tech, index) => (
-                                <span key={index} className="rounded bg-neutral-900 px-2 py-1 text-base font-medium text-purple-700 mb-8">
-                                    {tech}
-                                </span>
+                        <motion.div
+                            variants={container(1)}
+                            initial='hidden'
+                            animate='visible'
+                            className="flex flex-wrap gap-4 pb-4">
+                                {tech.map((tech, index) => (
+                                    <span key={index} className="rounded bg-neutral-900 px-2 py-1 text-base font-medium text-purple-700 mb-8">
+                                        {tech}
+                                    </span>
                             ))}
-                        </div>
+                            </motion.div>
                     </div>
                     <motion.div
-                        variants={container(1)}
+                        variants={container(1.5)}
                         initial="hidden"
                         animate="visible"
                         className="flex flex-row flex-wrap items-center justify-center gap-6">
