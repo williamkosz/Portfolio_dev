@@ -32,7 +32,7 @@ const Technologies = () => {
         initial={{ opacity:0, y: -100}}
         transition={{ duration: 1.5}}
         viewport={{ once: true }}
-        className="my-40 text-center text-4xl">Technologies</motion.h1>
+        className="my-32 text-center text-4xl">Technologies</motion.h1>
         <div
             className="flex flex-wrap items-center justify-center gap-4">
                 <motion.div 
