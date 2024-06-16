@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import ButtonBack from "../components/ButtonBack"
-import Introduction from "../components/Introduction"
+import ProjectPages from "../components/ProjectPages"
 import { KASA_PROJECT } from "../constants/project"
 
 
@@ -15,7 +15,7 @@ const Kasa = () => {
 
           <div className="container mx-auto px-8">
             <Navbar />
-            <Introduction 
+            <ProjectPages 
               title={KASA_PROJECT[0].title}
               description={KASA_PROJECT[0].description}
               tech={KASA_PROJECT[0].tech}

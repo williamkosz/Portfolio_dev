@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar"
-import Introduction from "../components/Introduction"
+import ProjectPages  from "../components/ProjectPages"
 import ButtonBack from "../components/ButtonBack"
 import { BLUEL_PROJECT } from "../constants/project"
 
@@ -15,7 +15,7 @@ const SophieBluel = () => {
 
           <div className="container mx-auto px-8">
             <Navbar />
-            <Introduction 
+            <ProjectPages  
               title={BLUEL_PROJECT[0].title}
               description={BLUEL_PROJECT[0].description}
               tech={BLUEL_PROJECT[0].tech}

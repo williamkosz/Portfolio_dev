@@ -54,7 +54,7 @@ export const GRIMOIRE_PROJECT = [
 
 export const BLUEL_PROJECT = [
     {
-        title:'Sopie Bluel, Architecte d\'intérieur',
+        title:'Sophie Bluel, Architecte d\'intérieur',
         description:'Développeur front-end pour l\'agence "ArchiWebos", Nous sommes envoyés en renfort sur le développement du site portfolio d\'une architecte d\'intérieur. Nos 3 principaux objectifs sont, la réalisation de la page de présentation des travaux de l\'architecte (à partir du HTML fourni), la page de connexion de l\'administrateur du site (le client) (code à créer de zéro) ; la modale permettant d\'uploader de nouveaux médias (code à créer from scratch). Il faudra donc communiquer avec l\'API pour connecter l\'utilisateur, ajouter et supprimer des photos.',
         tech:['HTML','CSS','Javascript'],
         image:[
