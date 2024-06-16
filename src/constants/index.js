@@ -1,7 +1,7 @@
 import kasa from "../assets/projects/kasa.png";
 import monVieuxGrimoire from "../assets/projects/mon_vieux_grimoire.png";
 import sophieBluel from "../assets/projects/sophie_bluel.png";
-import portfolio from "../assets/projects/portfolio.png" ;
+import portfolio2 from "../assets/projects/portfolio2.png"
 
 export const HERO_CONTENT = `Passionné d'informatique, j'ai décidé de faire de ce monde mon quotidien. Manageur dans le commerce de formation, c'est à la fin de mon bac+5 que j'ai intégré une formation de Développeur Web. 
 Aujourd'hui, mon objectif est de développer mes compétences au maximum afin de pouvoir réaliser des projets plus passionnants les uns que les autres, et de pouvoir étendre mes connaissances à de nouvelles technologies.`;
@@ -32,7 +32,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Portfolio Personnel",
-    image: portfolio,
+    image: portfolio2,
     description:
       "Mon portfolio personnel, bonne visite !",
     technologies: ["React", "Tailwind CSS"],
