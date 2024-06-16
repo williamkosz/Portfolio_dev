@@ -13,8 +13,8 @@ Je suis aujourd'hui en recherche d'une entreprise qui pourra m'accueillir dans l
 export const EXPERIENCES = [
   {
     year: "Septembre 2024 - Septembre 2025",
-    role : "Développeur Fullstack (Apprentissage Bac+3)",
-    company: "Epsi Toulouse",
+    role : "Développeur Fullstack, Bac+3 en apprentissage",
+    company: "EPSI Toulouse",
     description: "Formation en apprentissage à venir qui m'apportera des connaissances solides ainsi qu'une expérience professionnelle. Conception et test de solutions applicatives, Gestion de données, Veille technologique et communication, Gestion de projet ",
     technologies: ["A définir"]
   },
