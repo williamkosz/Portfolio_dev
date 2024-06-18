@@ -42,7 +42,7 @@ const Projets = () => {
                         <p className="mb-4 text-neutral-400 max-sm:text-center ">{project.description}</p>
                         <div className=" max-sm:w-full max-sm:flex max-sm:justify-center max-sm:flex-wrap">
                         {project.technologies.map((tech, index) => (
-                            <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800">
+                            <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-400">
                                 {tech}
                             </span>
                         ))}

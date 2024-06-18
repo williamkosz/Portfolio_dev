@@ -52,7 +52,7 @@ function Introduction({ title, description, tech, image, url }) {
                             animate='visible'
                             className="flex flex-wrap gap-4">
                                 {tech.map((tech, index) => (
-                                    <span key={index} className="rounded bg-neutral-900 px-2 py-1 text-base font-medium text-purple-700">
+                                    <span key={index} className="rounded bg-neutral-900 px-2 py-1 text-base font-medium text-purple-400">
                                         {tech}
                                     </span>
                             ))}
