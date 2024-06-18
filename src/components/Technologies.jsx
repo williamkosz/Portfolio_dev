@@ -41,6 +41,7 @@ const Technologies = () => {
                 animate= "animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaHtml5 className="text-7xl text-[#dc4d25]" title="HTML"/>
+                        <p className="text-center pt-1 text-[#dc4d25]">HTML</p>
                 </motion.div>
 
                 <motion.div 
@@ -49,6 +50,7 @@ const Technologies = () => {
                 animate= "animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaCss3Alt className="text-7xl text-[#254bdd]" title="CSS" />
+                     <p className="text-center pt-1 text-[#254bdd]">CSS</p>
                 </motion.div>
 
                 <motion.div 
@@ -57,6 +59,7 @@ const Technologies = () => {
                 animate= "animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <IoLogoJavascript className="text-7xl text-[#efd81c]" title="Javascript" />
+                        <p className="text-center pt-1 text-[#efd81c]">Javascript</p>
                 </motion.div>
 
                 <motion.div 
@@ -65,6 +68,7 @@ const Technologies = () => {
                 animate= "animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <RiReactjsLine className="text-7xl text-cyan-400" title="React" />
+                        <p className="text-center pt-1 text-cyan-400">React</p>
                 </motion.div>
 
                 <motion.div 
@@ -73,6 +77,7 @@ const Technologies = () => {
                 animate= "animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <RiTailwindCssFill className="text-7xl text-[#38bdf8]" title="Tailwind" />
+                        <p className="text-center pt-1 text-[#38bdf8]">Tailwind</p>
                 </motion.div>
 
                 <motion.div 
@@ -81,6 +86,7 @@ const Technologies = () => {
                 animate= "animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <IoLogoNodejs className="text-7xl text-green-500" title="Node.js" />
+                        <p className="text-center pt-1 text-green-500">Node.JS</p>
                 </motion.div>
 
                 <motion.div 
@@ -89,6 +95,7 @@ const Technologies = () => {
                 animate= "animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiMongodb className="text-7xl text-green-500" title="MongoDB" />
+                        <p className="text-center pt-1 text-green-500">MongoDB</p>
                 </motion.div>
 
                 <motion.div 
@@ -97,6 +104,7 @@ const Technologies = () => {
                 animate= "animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaGitAlt className="text-7xl text-[#f06033]" title="Git" />
+                        <p className="text-center pt-1 text-[#f06033]">GIT</p>
                 </motion.div>
 
         </div>
