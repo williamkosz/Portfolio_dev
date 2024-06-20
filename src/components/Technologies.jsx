@@ -104,7 +104,7 @@ const Technologies = () => {
                 animate= "animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaGitAlt className="text-7xl text-[#f06033]" title="Git" />
-                        <p className="text-center pt-1 text-[#f06033]">GIT</p>
+                        <p className="text-center pt-1 text-[#f06033]">Git</p>
                 </motion.div>
 
         </div>
