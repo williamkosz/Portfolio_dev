@@ -11,7 +11,7 @@ Je suis aujourd'hui en recherche d'une entreprise qui pourra m'accueillir dans l
 
 export const EXPERIENCES = [
   {
-    year: "Septembre 2024 - Septembre 2025",
+    year: "Septembre 2024 - Septembre 2026",
     role : "Titre Certifié Technicien Systèmes Réseaux et Sécurité (Bac+2)",
     company: "ISCOD",
     description: "Rythme en alternance de 4jours en entreprise / 1 jour de formation. Déployer les matériels, les systèmes et le réseau, administrer des serveurs hétérogènes et un réseau multi-sites,sécuriser l’environnement numérique d'exploitation, entretenir un parc informatique ,assurer le support technique auprès des utilisateurs",
