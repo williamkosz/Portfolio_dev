@@ -1,22 +1,22 @@
 import kasa from "../assets/projects/kasa.png";
 import monVieuxGrimoire from "../assets/projects/mon_vieux_grimoire.png";
 import sophieBluel from "../assets/projects/sophie_bluel.png";
-import portfolio2 from "../assets/projects/portfolio2.png"
 
 export const HERO_CONTENT = `Passionné d'informatique, j'ai décidé de faire de ce monde mon quotidien. Manageur dans le commerce de formation, c'est à la fin de mon bac+5 que j'ai intégré une formation de Développeur Web. 
-Aujourd'hui, mon objectif est de développer mes compétences au maximum afin de pouvoir réaliser des projets plus passionnants les uns que les autres, et de pouvoir étendre mes connaissances à de nouvelles technologies.`;
+Aujourd'hui, mon objectif est de me spécialiser dans la cybersécurité et cela passe par l'apprentissage des systèmes et réseaux. A termes, mon souhait est d'être un expert de la cybersécurité.`;
 
-export const ABOUT_TEXT = `Devenir développeur est ma priorité aujourd'hui. Intrigué, mon expérience de développeur commence par une grande curiosité de ce domaine. Logique, réflexion et résolution de problèmes, rien de plus stimulant ! Mes expériences passées ont fait de moi quelqu'un d'organiser, réfléchi et sachant m'adapter, j'apprends vite et suis autonome rapidement. 
-J'ai eu l'occasion de travailler sur différentes technologies tout au long de ma formation, telles que : HTML, CSS, Javascript, React, Node.JS. Le travail d'équipe est également une dimension majeure pour moi. 
+export const ABOUT_TEXT = `Ce que je veux : Intégrer une entreprise pour développer mes compétences en systèmes / réseaux. Mes expériences passées ont fait de moi quelqu'un d'organisé, réfléchi et sachant m'adapter, j'apprends vite et suis autonome rapidement. 
+ma formation de developpeur a été l'amorce de mon projet professionnel, j'ai pu travailler sur différentes technologies telles que : HTML, CSS, Javascript, React, Node.JS. Il est maintenant temps de passer sur une autre dimension de l'IT pour pouvoir un jour travailler dans le domaine de la cybersécurité. 
 Je suis aujourd'hui en recherche d'une entreprise qui pourra m'accueillir dans le cadre d'une formation en apprentissage. Découvrez en plus dans mon CV ! `;
 
 export const EXPERIENCES = [
   {
     year: "Septembre 2024 - Septembre 2025",
-    role : "Développeur Fullstack, Apprentissage (Bac+3)",
-    company: "EPSI Toulouse",
-    description: "Formation en apprentissage à venir qui m'apportera des connaissances solides ainsi qu'une expérience professionnelle. Conception et test de solutions applicatives, Gestion de données, Veille technologique et communication, Gestion de projet ",
-    technologies: ["A définir"]
+    role : "Titre Certifié Technicien Systèmes Réseaux et Sécurité (Bac+2)",
+    company: "ISCOD",
+    description: "Rythme en alternance de 4jours en entreprise / 1 jour de formation. Déployer les matériels, les systèmes et le réseau, administrer des serveurs hétérogènes et un réseau multi-sites,sécuriser l’environnement numérique d'exploitation, entretenir un parc informatique ,assurer le support technique auprès des utilisateurs",
+    technologies: ["Systèmes / Réseaux", "Cybersécurité", "Support Technique"],
+    url : "https://www.iscod.fr/formation-technicien-systemes-reseaux-et-securite-en-alternance",
   },
 
   {
@@ -30,13 +30,7 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "Portfolio Personnel",
-    image: portfolio2,
-    description:
-      "Mon portfolio personnel, bonne visite !",
-    technologies: ["React", "Tailwind CSS"],
-  },
+  
   {
     title: "Kasa - Location d'appartements",
     image: kasa,
