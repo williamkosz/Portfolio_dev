@@ -11,16 +11,15 @@ Je suis aujourd'hui en recherche d'une entreprise qui pourra m'accueillir dans l
 
 export const EXPERIENCES = [
   {
-    year: "Septembre 2024 - Septembre 2026",
-    role : "Titre Certifié Technicien Systèmes Réseaux et Sécurité (Bac+2)",
-    company: "ISCOD",
-    description: "Rythme en alternance de 4jours en entreprise / 1 jour de formation. Déployer les matériels, les systèmes et le réseau, administrer des serveurs hétérogènes et un réseau multi-sites,sécuriser l’environnement numérique d'exploitation, entretenir un parc informatique ,assurer le support technique auprès des utilisateurs",
+    year: "2024 - 2026",
+    role : "Bachelor Administrateur d'infrastructures sécurisées en apprentissage (Bac+3)",
+    company: "STUDI",
+    description: "Rythme en apprentissage de 75% en entreprise / 25% en formation. Installation, paramétrage, sécurisation, maintien en condition opérationnelle et en condition de sécurité",
     technologies: ["Systèmes / Réseaux", "Cybersécurité", "Support Technique"],
-    url : "https://www.iscod.fr/formation-technicien-systemes-reseaux-et-securite-en-alternance",
   },
 
   {
-    year: "Fevrier 2024 - En cours ",
+    year: "Fevrier 2024 - Juillet 2024 ",
     role: "Développeur web (RNCP Niveau 5)",
     company: "OpenClassrooms",
     description: ` Cette formation est le point de départ de ma carrière de développeur. Une multitude de projets professionnalisants à réaliser via différentes technologies. J'ai également pu aborder la gestion de projets et la planification de ceux-ci. `,
