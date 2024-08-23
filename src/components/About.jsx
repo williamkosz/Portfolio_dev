@@ -4,8 +4,8 @@ import { ABOUT_TEXT } from "../constants"
 import { motion } from "framer-motion";
 
 const getCv = () => {
-    const imageUrl = "cv_william_koszelnik.pdf"
-    const fileName = "cv_william_koszelnik.pdf"
+    const imageUrl = "cv_william_koszelnik_dev.pdf"
+    const fileName = "cv_william_koszelnik_dev.pdf"
     saveAs (imageUrl, fileName);
 }
 

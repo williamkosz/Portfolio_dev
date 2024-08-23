@@ -29,9 +29,9 @@ const Hero = () => {
                         variants={container(0.5)}
                         initial="hidden"
                         animate="visible" 
-                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent my-2 max-w-xl">
-                            Bachelor Administrateur d&#39;infrastructures
-                            sécurisées en alternance
+                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
+                            Bachelor Concepteur Développeur
+                            d'Applications 
                         </motion.span>
                         <motion.p 
                         variants={container(1)}

@@ -3,19 +3,19 @@ import monVieuxGrimoire from "../assets/projects/mon_vieux_grimoire.png";
 import sophieBluel from "../assets/projects/sophie_bluel.png";
 
 export const HERO_CONTENT = `Passionné d'informatique, j'ai décidé de faire de ce monde mon quotidien. Manageur dans le commerce de formation, c'est à la fin de mon bac+5 que j'ai intégré une formation de Développeur Web. 
-Aujourd'hui, mon objectif est de me spécialiser dans la cybersécurité et cela passe par l'apprentissage des systèmes et réseaux. A termes, mon souhait est d'être un expert de la cybersécurité.`;
+Aujourd'hui, mon objectif est d'en apprendre plus premièrement sur la partie front-end en me faisant une première expérience en entreprise et ensuite, éventuellement passer sur un poste fullstack / back-end`;
 
-export const ABOUT_TEXT = `Ce que je veux : Intégrer une entreprise pour développer mes compétences en systèmes / réseaux. Mes expériences passées ont fait de moi quelqu'un d'organisé, réfléchi et sachant m'adapter, j'apprends vite et suis autonome rapidement. 
-ma formation de developpeur a été l'amorce de mon projet professionnel, j'ai pu travailler sur différentes technologies telles que : HTML, CSS, Javascript, React, Node.JS. Il est maintenant temps de passer sur une autre dimension de l'IT pour pouvoir un jour travailler dans le domaine de la cybersécurité. 
+export const ABOUT_TEXT = `Ce que je veux : Intégrer une entreprise pour développer mes compétences en programmation. Mes expériences passées ont fait de moi quelqu'un d'organisé, réfléchi et sachant m'adapter, j'apprends vite et suis autonome rapidement. 
+ma formation de developpeur a été l'amorce de mon projet professionnel, j'ai pu travailler sur différentes technologies telles que : HTML, CSS, Javascript, React, Node.JS. Il est maintenant temps de mettre en pratique ce que j'ai pu apprendre. 
 Je suis aujourd'hui en recherche d'une entreprise qui pourra m'accueillir dans le cadre d'une formation en apprentissage. Découvrez en plus dans mon CV ! `;
 
 export const EXPERIENCES = [
   {
     year: "2024 - 2026",
-    role : "Bachelor Administrateur d'infrastructures sécurisées en apprentissage (Bac+3)",
-    company: "STUDI",
-    description: "Rythme en apprentissage de 75% en entreprise / 25% en formation. Installation, paramétrage, sécurisation, maintien en condition opérationnelle et en condition de sécurité",
-    technologies: ["Systèmes / Réseaux", "Cybersécurité", "Support Technique"],
+    role : "Bachelor Concepteur Développeur d'Applications RNCP de niveau 6 (Bac+3)",
+    company: "ISCOD",
+    description: "Rythme en apprentissage de 4 jours en entreprise / 1 jour en formation. Développer une application sécurisée. Concevoir et développer une application sécurisée organisée en couches. Préparer le déploiement d'une application sécurisée",
+    technologies: ["HTML", "CSS", "React.JS", "Node.JS", "Express", "SQL", "UML"],
   },
 
   {
